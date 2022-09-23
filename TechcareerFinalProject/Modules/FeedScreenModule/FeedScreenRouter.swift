@@ -7,15 +7,19 @@
 
 import Foundation
 
-class FeedScreenRouter: PresenterToRouterProtocol {
+class FeedScreenRouter: PresenterToRouterFeedScreenProtocol {
     
     static func createModule(ref: FeedScreenViewController) {
         
-        ref.presenter = FeedScreenPresenter()
+        let presenter = FeedScreenPresenter()
         
+        ref.presenter = presenter
+                
         ref.presenter?.interactor = FeedScreenInteractor()
+        ref.presenter?.view = ref
+        
+        ref.presenter?.interactor?.presenter = presenter
         
     }
-    
     
 }

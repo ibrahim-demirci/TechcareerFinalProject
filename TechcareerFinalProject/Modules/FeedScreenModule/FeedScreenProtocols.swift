@@ -7,21 +7,38 @@
 
 import Foundation
 
-protocol ViewToPresenterProtocol {
+protocol ViewToPresenterFeedScreenProtocol {
     
-    var interactor: PresenterToInteractorProtocol? { get set }
+    var interactor: PresenterToInteractorFeedScreenProtocol? { get set }
+    var view: PresenterToViewFeedScreenProtocol? { get set }
     
     func getAllFoods()
+    func searchFood(searchText: String)
 }
 
 
-protocol PresenterToInteractorProtocol {
+protocol PresenterToInteractorFeedScreenProtocol {
     
+    var presenter: InteractorToPresenterFeedScreenProtocol? { get set }
+
     func getAllFoods()
-    
+    func searchFood(searchText: String)
+
 }
 
-protocol PresenterToRouterProtocol {
+protocol InteractorToPresenterFeedScreenProtocol {
+    
+    func sendAllFoodsToPresenter(foods: [Food])
+}
+
+
+protocol PresenterToViewFeedScreenProtocol {
+    
+    func sendAllFoodsToView(foods: [Food])
+}
+
+
+protocol PresenterToRouterFeedScreenProtocol {
     
     static func createModule(ref: FeedScreenViewController)
 }

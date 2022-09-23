@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "90A697CC-D5F0-4B84-BEBA-2601093B82F6"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "990A54C4-B352-426E-8D21-280CA16116BD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechcareerFinalProject/Modules/DetailScreenModule/DetailScreenViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "addToCartbutton(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "990A54C4-B352-426E-8D21-280CA16116BD - 8a9d0e1d71f8d28a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TechcareerFinalProject.DetailScreenViewController.addToCartbutton(Any) -&gt; ()"
+                  moduleName = "TechcareerFinalProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ibrahim/Desktop/Learnin/bootcampKas%C4%B1mAdalan/TechcareerFinalProject/TechcareerFinalProject/Modules/DetailScreenModule/DetailScreenViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "440">
+               </Location>
+               <Location
+                  uuid = "990A54C4-B352-426E-8D21-280CA16116BD - 8a9d0e1d71f8d28a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TechcareerFinalProject.DetailScreenViewController.addToCartbutton(Any) -&gt; ()"
+                  moduleName = "TechcareerFinalProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ibrahim/Desktop/Learnin/bootcampKas%C4%B1mAdalan/TechcareerFinalProject/TechcareerFinalProject/Modules/DetailScreenModule/DetailScreenViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "496">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
